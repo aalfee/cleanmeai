@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "all": "^0.0.0",
+    "three": "^0.177.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "vite": "^7.0.3"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "http-server .. -c-1"
+  }
+}
