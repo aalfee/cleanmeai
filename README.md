@@ -1,3 +1,52 @@
+Welcome to the cleanmeai repository. Visit the live website at (cleanmeai.com).
+
+The application is launched on a simple index.html file with the bare necessities to run and function as a minimal viable product (MVP). The exported options are for documentation purposes only.
+
+## 🧱 Tech Stack
+
+| Layer         | Tech                                                    |
+|---------------|----------------------------------------------------------|
+| Frontend      | React, TypeScript, CSS                                   |
+| Backend       | Django, Comma-Separated File                             |
+| ML/AI         | Python, Pandas                                           |
+| Database      | PostgreSQL, MondoDB                                      |
+| DevOps        | Vercel, Github Pages, AWS                                |
+| Simulation    | Unity                                                    |
+
+---
+
+## 🛠️ Setup
+
+### Prerequisites
+
+- Python 3.10+
+- Node.js 18+
+- Docker & Docker Compose
+- Terraform & AWS CLI
+
+### Backend Setup
+
+```bash
+cd backend
+python -m venv env
+source env/bin/activate
+pip install -r ../requirements.txt
+python manage.py migrate
+python manage.py runserver
+
+Frontend Setup
+bash
+CopyEdit
+cd frontend
+npm install
+npm run dev
+
+Containerized (Dev Mode)
+bash
+CopyEdit
+docker-compose up --build
+
+
 To implement AI-driven Instagram-like stories for your app, focusing on various fields such as AI, education, social science, and community, you can follow these steps:
 
 A. **User Engagement and Feedback Loop**
