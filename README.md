@@ -26,7 +26,8 @@ The application is launched on a simple index.html file with the bare necessitie
 
 ### Backend Setup
 
-```bash
+```
+bash
 cd backend
 python -m venv env
 source env/bin/activate
@@ -45,6 +46,7 @@ Containerized (Dev Mode)
 bash
 CopyEdit
 docker-compose up --build
+```
 
 
 To implement AI-driven Instagram-like stories for your app, focusing on various fields such as AI, education, social science, and community, you can follow these steps:
