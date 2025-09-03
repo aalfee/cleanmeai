@@ -1,3 +1,5 @@
+**CleanMeAI**
+
 Welcome to the cleanmeai repository. Visit the live website at (cleanmeai.com).
 
 The application is launched on a simple index.html file with the bare necessities to run and function as a minimal viable product (MVP). The exported options are for documentation purposes only.
