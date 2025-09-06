@@ -17,9 +17,9 @@ The application is launched on a simple index.html file with the bare necessitie
 
 ---
 
-## 🛠️ Setup
+**🛠️ Setup**
 
-### Prerequisites
+Prerequisites
 
 - Python 3.10+
 - Node.js 18+
@@ -27,7 +27,7 @@ The application is launched on a simple index.html file with the bare necessitie
 - Terraform & AWS CLI
 ```
 
-### Backend Setup
+Backend Setup
 
 cd backend
 python -m venv env
@@ -36,13 +36,13 @@ pip install -r ../requirements.txt
 python manage.py migrate
 python manage.py runserver
 
-###Frontend Setup
+Frontend Setup
 
 cd frontend
 npm install
 npm run dev
 
-###Containerized (Dev Mode)
+Containerized (Dev Mode)
 
 docker-compose up --build
 ```
