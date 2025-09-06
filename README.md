@@ -25,11 +25,10 @@ The application is launched on a simple index.html file with the bare necessitie
 - Node.js 18+
 - Docker & Docker Compose
 - Terraform & AWS CLI
+```
 
 ### Backend Setup
 
-```
-bash
 cd backend
 python -m venv env
 source env/bin/activate
@@ -37,16 +36,14 @@ pip install -r ../requirements.txt
 python manage.py migrate
 python manage.py runserver
 
-Frontend Setup
-bash
-CopyEdit
+###Frontend Setup
+
 cd frontend
 npm install
 npm run dev
 
-Containerized (Dev Mode)
-bash
-CopyEdit
+###Containerized (Dev Mode)
+
 docker-compose up --build
 ```
 
